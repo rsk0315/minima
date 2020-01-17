@@ -24,12 +24,10 @@ $table-border-color:    $brand-color-light !default;
 .highlight {
   font-size: 90%;
   .c     { color: #998 } // Comment
-  // .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { color: #d73a49 } // Keyword
   .o     { color: #333 } // Operator
   .cm    { color: #998 } // Comment.Multiline
-  // .cm    { color: #998; font-style: italic } // Comment.Multiline
   .cp    { color: #d73a49 } // Comment.Preproc
   .c1    { color: #998; font-style: italic } // Comment.Single
   .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
@@ -57,8 +55,8 @@ $table-border-color:    $brand-color-light !default;
   .nc    { color: #6f42c1 } // Name.Class
   .no    { color: #008080 } // Name.Constant
   .ni    { color: #800080 } // Name.Entity
-  .ne    { color: #900; font-weight: bold } // Name.Exception
-  .nf    { color: #900; font-weight: bold } // Name.Function
+  .ne    { color: #005cc5 } // Name.Exception
+  .nf    { color: #005cc5 } // Name.Function
   .nn    { color: #555 } // Name.Namespace
   .nt    { color: #000080 } // Name.Tag
   .nv    { color: #008080 } // Name.Variable
