@@ -4,9 +4,9 @@ $brand-color:           #828282 !default;
 $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
-$text-color:            #111 !default;
+$text-color:            #24292e !default;
 $background-color:      #fdfdfd !default;
-$code-background-color: #eef !default;
+$code-background-color: #f6f8fa !default;
 
 $link-base-color:       #2a7ae2 !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
@@ -22,7 +22,7 @@ $table-border-color:    $brand-color-light !default;
 // ----------------------------------------------------------------------------
 
 .highlight {
-  font-size: 70%;
+  font-size: 85%;
   .c     { color: #998 } // Comment
   // .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
