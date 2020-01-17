@@ -69,11 +69,11 @@ $table-border-color:    $brand-color-light !default;
   .mo    { color: #005cc5 } // Literal.Number.Oct
   .sb    { color: #d14 } // Literal.String.Backtick
   .sc    { color: #032f62 } // Literal.String.Char
-  .sd    { color: #d14 } // Literal.String.Doc
-  .s2    { color: #d14 } // Literal.String.Double
-  .se    { color: #d14 } // Literal.String.Escape
-  .sh    { color: #d14 } // Literal.String.Heredoc
-  .si    { color: #d14 } // Literal.String.Interpol
+  .sd    { color: #005cc5 } // Literal.String.Doc
+  .s2    { color: #005cc5 } // Literal.String.Double
+  .se    { color: #005cc5 } // Literal.String.Escape
+  .sh    { color: #005cc5 } // Literal.String.Heredoc
+  .si    { color: #005cc5 } // Literal.String.Interpol
   .sx    { color: #032f62 } // Literal.String.Other
   .sr    { color: #009926 } // Literal.String.Regex
   .s1    { color: #032f62 } // Literal.String.Single
