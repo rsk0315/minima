@@ -43,10 +43,10 @@ $table-border-color:    $brand-color-light !default;
   .gs    { font-weight: bold } // Generic.Strong
   .gu    { color: #aaa } // Generic.Subheading
   .gt    { color: #a00 } // Generic.Traceback
-  .kc    { font-weight: bold } // Keyword.Constant
-  .kd    { font-weight: bold } // Keyword.Declaration
-  .kp    { font-weight: bold } // Keyword.Pseudo
-  .kr    { font-weight: bold } // Keyword.Reserved
+  .kc    { color: #d73a49 } // Keyword.Constant
+  .kd    { color: #d73a49 } // Keyword.Declaration
+  .kp    { color: #d73a49 } // Keyword.Pseudo
+  .kr    { color: #d73a49 } // Keyword.Reserved
   .kt    { color: #005cc5 } // Keyword.Type
   .m     { color: #099 } // Literal.Number
   .s     { color: #032f62 } // Literal.String
