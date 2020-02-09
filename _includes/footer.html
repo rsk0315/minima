@@ -19,7 +19,11 @@
       </div>
 
       <div class="footer-col one-half">
-        <p>{{ site.description | escape }}</p>
+        {%- if site.footer_description -%}
+        <p>{{ site.footer_description }}</p>
+        {%- elsif site.description -%}
+        <p>{{ site.description }}</p>
+        {%- endif -%}
       </div>
 
       <div class="social-links">
