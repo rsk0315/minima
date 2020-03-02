@@ -6,7 +6,9 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 
 $text-color:            #24292e !default;
 $background-color:      #fdfdfd !default;
-$code-background-color: #f6f8fa !default;
+$code-color:            #e01e5a !default;
+$code-background-color: #f7f7f9 !default;
+$code-border-color:     #e1e1e8 !default;
 
 $link-base-color:       #2a7ae2 !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
